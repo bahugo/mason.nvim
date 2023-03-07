@@ -7,6 +7,6 @@ return Pkg.new {
     homepage = "https://github.com/python-lsp/python-lsp-ruff",
     languages = { Pkg.Lang.Python },
     categories = { Pkg.Cat.LSP },
-    install = pip3.packages { "python-lsp-ruff", bin = { "pyslp" } },
+    install = pip3.packages {"python-lsp-server[all]", "python-lsp-ruff", bin = { "pyslp" } },
 
 }
