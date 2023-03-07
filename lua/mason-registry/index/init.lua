@@ -197,6 +197,7 @@ return {
   ["pyproject-flake8"] = "mason-registry.index.pyproject-flake8",
   pyre = "mason-registry.index.pyre",
   pyright = "mason-registry.index.pyright",
+  ["python-lsp-ruff"] = "mason-registry.index.python-lsp-ruff",
   ["python-lsp-server"] = "mason-registry.index.python-lsp-server",
   ["quick-lint-js"] = "mason-registry.index.quick-lint-js",
   ["r-languageserver"] = "mason-registry.index.r-languageserver",
